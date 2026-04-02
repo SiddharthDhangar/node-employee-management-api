@@ -1,4 +1,4 @@
-<img width="1206" height="420" alt="image" src="https://github.com/user-attachments/assets/e5c5fe42-4a83-4da9-bc8e-6390f0a5a96e" /><img width="1206" height="420" alt="image" src="https://github.com/user-attachments/assets/2e44f06b-95cd-42b2-8074-3da3fcdcacce" /># 🧑‍💼 Employee Management API
+# 🧑‍💼 Employee Management API
 
 A robust and scalable **RESTful API** built using **Node.js**, **Express**, and **MongoDB**.
 This project provides complete backend functionality for managing **Employees and Departments**, with support for **CRUD operations, relationship mapping, and advanced filtering using query parameters**.
@@ -246,12 +246,11 @@ http://localhost:3000
 
 ### 👤 Employee Table
 
-| First Name | Last Name | Email                    | Phone      | Dept Code | Salary | Active | Joining Date | Created At | Updated At |
-|-----------|----------|--------------------------|-----------|----------|--------|--------|-------------|------------|------------     |
-| Rohit     | Patil    | rohit.patil@company.com  | 1234567890 | BE001    | 75000  | true   | 2026-04-01  | 2026-04-01 | 2026-04-01     |
-| Priya     | Shah     | priya.shah@company.com   | 1234567891 | FE001    | 68000  | true   | 2026-04-02  | 2026-04-02 | 2026-04-02     |
-| Aman      | Verma    | aman.verma@company.com   | 1234567892 | FS001    | 90000  | true   | 2026-04-03  | 2026-04-03 | 2026-04-03     |
-
+| Name         | Email                      | Phone      | Dept | Salary | Active | Joined     |
+|-------------|----------------------------|-----------|------|--------|--------|------------|
+| Rohit Patil | `rohit.patil@company.com`  | 1234567890 | BE001 | 75000  | true   | 2026-04-01 |
+| Priya Shah  | `priya.shah@company.com`   | 1234567891 | FE001 | 68000  | true   | 2026-04-02 |
+| Aman Verma  | `aman.verma@company.com`   | 1234567892 | FS001 | 90000  | true   | 2026-04-03 |
 
 
 ## 💡 Key Highlights
